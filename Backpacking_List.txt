@@ -1,1 +1,50 @@
-Hello Git and GitHub
+
+#Camp Items
+CampGroup = [Tent, Ground Tarp, Lantern, Camp Table, Shade Tarp]
+CampSolo = [Backpack, Camp Chair, Flashlight, Headlamp, Sleeping Bag, Cot, Pillow]
+
+#Clothes
+ClothesNeed = [Hiking Boots, Rain Jacket]
+WarmOutfit = [Shorts, T Shirt, Socks, Underwear]
+ModerateOutfit = [Hiking Pants, Long Sleeve Shirt, Socks, Underwear]
+ColdOutfit = [Hiking Pants, Long Sleeve Shirt, Warm Socks, Underwear]
+ColdGear = [Sweater, Warm Jacket, Warm Hat]
+SleepWear = [Shorts, Sweatpants, T Shirt]
+
+#Supplies
+Supplies = [Sun Screen, Bug Spray, Sunglasses, Trekking Poles, 1st Aid Kit, Tent Patch Kit, Multi-Tool, Hatchet, Small Broom, Trowel, Toilet Paper, Toiletries, Fire Starter, Biodegradable Soap, Wipes, Towel, Book, Power Charger, Hand Sanitizer, Game/ Fun Things]
+
+#Dog Stuff
+DogGear = [Leash, Tether, Dog Food, Collapsible Bowls, Dog Backpack, Waste Bags, Water]
+
+#Food
+FoodSupplies = [Mess Kit, Gas + Burner, Water, Water Filter, Electrolytes]
+
+#Food Recipes
+#Need to tie to a menu directory
+
+#Breakfast
+Breakfast1 = [Oatmeal, Apple]
+Breakfast2 = [Hard Boiled Egg, Cheese, Bread, Pre-Cooked Bacon]
+
+#Lunch
+Lunch1 = [Salami, Cheese, Crackers, Fruit]
+Lunch2 = [Sandwich, Chips, Fruit]
+
+#Dinner
+Dinner1 = [Alfredo Pasta Side, Foil Pack Chicken]
+Dinner2 = [Nacho Chips, Foil Pack Chicken, Beans, Corn, Cheese, Salsa]
+Dinner3 = [Potatoes, Butter, Veggies, Meat]
+
+
+#Order of Prompts
+
+#How Many Days is the hike?
+#Promts Temps
+#Prompts Number of Meals
+
+#Temp for those days?
+#Daily clothes
+
+#Water Crossings or Beach?
+
