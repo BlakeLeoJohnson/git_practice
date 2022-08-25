@@ -1,24 +1,40 @@
 
 #Camp Items
-CampGroup = [Tent, Ground Tarp, Lantern, Camp Table, Shade Tarp]
+CampGroup = [4 Person Tent, Ground Tarp, Lantern, Camp Table, Shade Tarp, Paracord]
+CampGroupWeight = [8.0, 1.0, 0.5, 3.4, 1.0, 0.1]
+
 CampSolo = [Backpack, Camp Chair, Flashlight, Headlamp, Sleeping Bag, Cot, Pillow]
+CampSoloWeight = [4.15, 3.3, 0.2, 0.2, 4.5, 4.8, 1.0]
+
 
 #Clothes
 ClothesNeed = [Hiking Boots, Rain Jacket]
+ClothesNeedWeight = [2.5, 1.0]
 WarmOutfit = [Shorts, T Shirt, Socks, Underwear]
+WarmOutfitWeight = [0.5, 0.5, 0.1, 0.1]
+BeachGear = [Flip Flops, Swimsuit]
+BeachGearWeight = [1.0, 0.4]
 ModerateOutfit = [Hiking Pants, Long Sleeve Shirt, Socks, Underwear]
+ModerateOutfitWeight = [1.0, 0.75, 0.1, 0.1]
 ColdOutfit = [Hiking Pants, Long Sleeve Shirt, Warm Socks, Underwear]
+ColdOutfitWeight = [1.0, 0.75, 0.2, 0.1]
 ColdGear = [Sweater, Warm Jacket, Warm Hat]
+ColdGearWeight = [1.25, 1.5, 0.3]
 SleepWear = [Shorts, Sweatpants, T Shirt]
+SleepWearWeight = [0.5, 1.0, 0.5]
 
 #Supplies
 Supplies = [Sun Screen, Bug Spray, Sunglasses, Trekking Poles, 1st Aid Kit, Tent Patch Kit, Multi-Tool, Hatchet, Small Broom, Trowel, Toilet Paper, Toiletries, Fire Starter, Biodegradable Soap, Wipes, Towel, Book, Power Charger, Hand Sanitizer, Game/ Fun Things]
+SuppliesWeight = []
 
 #Dog Stuff
 DogGear = [Leash, Tether, Dog Food, Collapsible Bowls, Dog Backpack, Waste Bags, Water]
+DogGearWeight = []
 
 #Food
-FoodSupplies = [Mess Kit, Gas + Burner, Water, Water Filter, Electrolytes]
+FoodSupplies = [Mess Kit, Gas + Burner, Water Filter, Electrolytes]
+FoodSuppliesWeight = [1.5, 0.5, 0.25, 0.2]
+
 
 #Food Recipes
 #Need to tie to a menu directory
@@ -39,12 +55,31 @@ Dinner3 = [Potatoes, Butter, Veggies, Meat]
 
 #Order of Prompts
 
-#How Many Days is the hike?
-#Promts Temps
+#Dictionary of each person's Item List
+#Daily clothes added to each list in the dictionary based on daily temps
 #Prompts Number of Meals
+#How much water to bring
 
-#Temp for those days?
-#Daily clothes
 
-#Water Crossings or Beach?
+def camping_list():
+  #Defines people on the trip and creates an item list for all of them
+  PeopleCamping = input('How many people are going on the camping trip?')
+  Names = {}
+  For n in range(PeopleCamping)
+    Names.append(input('What is the name of Person ' + str(n + 1) + '?'): [])
+  
+  #Gathering variables for clothing list
+  DaysCamping = input('How many days are you camping for?')
+  DaysTemps = []
+  For x in range(DaysCamping)
+    DaysTemps.append(input('What is the temperature on Day ' + str(x + 1) + '?'))
+  LowTemp = input('What is the coldest it will get at night?')
+  
+    
+    
+
+
+
+
+
 
